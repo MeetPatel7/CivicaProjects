@@ -1,0 +1,70 @@
+<div>
+    <form [formGroup]="registerForm">
+        <div class="d-flex justify-content-center fs-4 pt-5">
+            <b>Register</b>
+        </div>
+        <div class="d-flex justify-content-center pt-5">
+            <div class="col-2">
+                <label>Full Name:</label>
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" formControlName="fullname"
+                    [ngClass]="{'is-invalid':registerForm.get('fullname')?.touched && !registerForm.get('fullname')?.valid}" />
+
+                <span class="invalid-feedback">
+                    <span *ngIf="registerForm.get('fullname')?.errors?.['required']">Please enter your name</span>
+                </span>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center pt-4">
+            <div class="col-2">
+                <label>Email:</label>
+            </div>
+            <div class="col-3">
+                <input type="email" class="form-control" formControlName="email"
+                    [ngClass]="{'is-invalid':registerForm.get('email')?.touched && !registerForm.get('email')?.valid}" />
+
+                <span class="invalid-feedback">
+                    <span *ngIf="registerForm.get('email')?.errors?.['required']">Please enter your email</span>
+                    <span *ngIf="registerForm.get('email')?.errors?.['pattern']">Invalid email</span>
+                </span>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center pt-4">
+            <div class="col-2">
+                <label>Password:</label>
+            </div>
+            <div class="col-3">
+                <input type="password" class="form-control" formControlName="password"
+                    [ngClass]="{'is-invalid':registerForm.get('password')?.touched && !registerForm.get('password')?.valid}" />
+
+                <span class="invalid-feedback">
+                    <span *ngIf="registerForm.get('password')?.errors?.['required']">Please enter your password</span>
+                    <span *ngIf="registerForm.get('password')?.errors?.['minlength']">Please enter atleast 6 characters
+                    </span>
+                </span>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center pt-4">
+            <div class="col-2">
+                <label>Confirm Password:</label>
+            </div>
+            <div class="col-3 form-Group">
+                <input type="password" class="form-control" formControlName="confirmpassword"
+                    [ngClass]="{'is-invalid':registerForm.get('confirmpassword')?.touched && !registerForm.get('confirmpassword')?.valid}" />
+                <span class="invalid-feedback">
+                    <span *ngIf="registerForm.get('confirmpassword')?.errors?.['required']">Please enter your
+                        confirmpassword</span>
+                </span>
+                <span *ngIf="f['confirmpassword'].getError('required')!=null">Please enter yourconfirmpassword</span>
+                <span *ngIf="f['confirmpassword'].getError('cofirmedvalidator')!=null">Password mismatched</span>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center pt-5">
+            <button type="button" class="btn btn-primary" [disabled]="!registerForm.valid"
+                (click)="register()">Register</button>
+            <!-- <button type="button" class="btn btn-primary" [disabled]="!registerForm.valid"
+                [routerLink]="['/register-successful']">Register</button> -->
+        </div>
+    </form>
+</div>

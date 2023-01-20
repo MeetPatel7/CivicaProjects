@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Dashboard</a>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container m-3">
+    <h1>App Component - {{message}}</h1>
+    <app-welcome></app-welcome> <!-- Calling welcome component -->
+    <app-login></app-login> <!-- Calling login component -->
+
+    <button type="button" class="btn btn-primary">Button</button>
+
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+
+    <button type="button" class="btn btn-primary">Button</button>
+</div>

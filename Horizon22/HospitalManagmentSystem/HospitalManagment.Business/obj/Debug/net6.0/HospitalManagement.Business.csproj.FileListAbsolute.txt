@@ -1,0 +1,12 @@
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\bin\Debug\net6.0\HospitalManagement.Business.deps.json
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\bin\Debug\net6.0\HospitalManagement.Business.dll
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\bin\Debug\net6.0\HospitalManagement.Business.pdb
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\obj\Debug\net6.0\HospitalManagement.Business.csproj.AssemblyReference.cache
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\obj\Debug\net6.0\HospitalManagement.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\obj\Debug\net6.0\HospitalManagement.Business.AssemblyInfoInputs.cache
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\obj\Debug\net6.0\HospitalManagement.Business.AssemblyInfo.cs
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\obj\Debug\net6.0\HospitalManagement.Business.csproj.CoreCompileInputs.cache
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\obj\Debug\net6.0\HospitalManagement.Business.dll
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\obj\Debug\net6.0\refint\HospitalManagement.Business.dll
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\obj\Debug\net6.0\HospitalManagement.Business.pdb
+C:\Learning\DataAccessTechology\HospitalManagmentSystem\HospitalManagment.Business\obj\Debug\net6.0\ref\HospitalManagement.Business.dll

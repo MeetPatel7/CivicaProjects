@@ -1,0 +1,39 @@
+<div>
+    <form [formGroup]="loginForm">
+        <div>
+            <div class="d-flex justify-content-center fs-4 pt-5">
+                <b>Login</b>
+            </div>
+            <div class="d-flex justify-content-center pt-5">
+                <div class="col-1">
+                    <label>Email:</label>
+                </div>
+                <div class="col-3">
+                    <input type="email" class="form-control" formControlName="email"
+                        [ngClass]="{'is-invalid':loginForm.get('email')?.touched && !loginForm.get('email')?.valid}" />
+
+                    <span class="invalid-feedback">
+                        <span *ngIf="loginForm.get('email')?.errors?.['required']">Please enter your Email Id</span>
+                    </span>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center pt-4">
+                <div class="col-1">
+                    <label>Password:</label>
+                </div>
+                <div class="col-3">
+                    <input type="password" class="form-control" formControlName="password"
+                        [ngClass]="{'is-invalid':loginForm.get('password')?.touched && !loginForm.get('password')?.valid}" />
+
+                    <span class="invalid-feedback">
+                        <span *ngIf="loginForm.get('password')?.errors?.['required']">Please enter your Password</span>
+                    </span>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center pt-4">
+                <button type="button" class="btn btn-primary" [disabled]="!loginForm.valid"
+                    (click)="login()">Login</button>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,33 @@
+<app-nav-bar [id]="id"></app-nav-bar>
+<div class="m-1">
+    <form [formGroup]="groupchatForm">
+        <div class="row border-top border-dark rounded p-1">
+            <div class="col-11 d-flex justify-content-center">
+                Group Chat
+            </div>
+            <div class="col-1 d-flex justify-content-end">
+                <button type="button" class="btn-close border border-dark p-2"></button>
+            </div>
+        </div>
+        <div class="border-top border-dark p-3 chatbox">
+            <div *ngFor="let item of groupchatdata">
+                {{item.datetime}}&nbsp;&nbsp;{{item.username}}&nbsp;&nbsp;:&nbsp;&nbsp;{{item.message}}
+            </div>
+        </div>
+
+        <div class="row border-top border-bottom border-dark p-3">
+            <div class="col-2 usernamelabel">
+                <label labelControl=""><b>{{username}}</b></label>
+            </div>
+            <div class="col-8">
+                <input type="text" class="form-control" formControlName="message" />
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-outline-dark" (click)="savechat()">Send</button>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-outline-dark">Refersh</button>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,17 @@
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\bin\Debug\net6.0\OSS.Data.deps.json
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\bin\Debug\net6.0\OSS.Data.runtimeconfig.json
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\bin\Debug\net6.0\OSS.Data.dll
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\bin\Debug\net6.0\OSS.Data.pdb
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\bin\Debug\net6.0\OSS.Business.dll
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\bin\Debug\net6.0\OSS.Business.pdb
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\obj\Debug\net6.0\OSS.Data.csproj.AssemblyReference.cache
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\obj\Debug\net6.0\OSS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\obj\Debug\net6.0\OSS.Data.AssemblyInfoInputs.cache
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\obj\Debug\net6.0\OSS.Data.AssemblyInfo.cs
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\obj\Debug\net6.0\OSS.Data.csproj.CoreCompileInputs.cache
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\obj\Debug\net6.0\OSS.Data.csproj.CopyComplete
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\obj\Debug\net6.0\OSS.Data.dll
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\obj\Debug\net6.0\refint\OSS.Data.dll
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\obj\Debug\net6.0\OSS.Data.pdb
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\obj\Debug\net6.0\OSS.Data.genruntimeconfig.cache
+C:\Learning\DataAccessTechology\OSS_Project\OnlineShoesShoppingWebSite\OSS.Data\obj\Debug\net6.0\ref\OSS.Data.dll

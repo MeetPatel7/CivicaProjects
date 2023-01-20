@@ -1,0 +1,45 @@
+<div class="container m-4">
+
+    <h1>Parent component</h1>
+    <h2>{{pagetTitle}}</h2>
+    <div><label for="">Search Product &nbsp;&nbsp;</label><input type="text" name="productName"
+            [(ngModel)]="productName"></div>
+
+
+    <br>
+    Search product for {{productName}}
+    <div class="product-list-border">
+        <button type="button" class="btn btn-primary" (click)="toggleImage()">{{showImage ? 'Hide': 'Show'}}
+            Image</button>
+    </div>
+
+
+    <table class="table table-striped table-hover" *ngIf="products">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Product Code</th>
+                <th>Date</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of products | productFilter: productName">
+                <td><img *ngIf="showImage" width="50" height="50" src={{item.imageUrl}}></td>
+                <td>{{item.productName | uppercase}}</td>
+                <td>{{item.description | uppercase}}</td>
+                <td>{{item.price}}</td>
+                <td>{{item.productCode | convertToSpaces}}</td>
+                <td>{{item.manufactureDate}}</td>
+                <td><app-star [rating]="item.starRating" (ratingClicked)='onRatingClicked($event)'></app-star>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<app-users-list></app-users-list>

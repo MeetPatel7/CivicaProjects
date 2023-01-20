@@ -1,0 +1,8 @@
+C:\Learning\ADO.Net\SqlConnectionADODotNet\SqlConnectionADODotNet\bin\Debug\SqlConnectionADODotNet.exe.config
+C:\Learning\ADO.Net\SqlConnectionADODotNet\SqlConnectionADODotNet\bin\Debug\SqlConnectionADODotNet.exe
+C:\Learning\ADO.Net\SqlConnectionADODotNet\SqlConnectionADODotNet\bin\Debug\SqlConnectionADODotNet.pdb
+C:\Learning\ADO.Net\SqlConnectionADODotNet\SqlConnectionADODotNet\obj\Debug\SqlConnectionADODotNet.csproj.AssemblyReference.cache
+C:\Learning\ADO.Net\SqlConnectionADODotNet\SqlConnectionADODotNet\obj\Debug\SqlConnectionADODotNet.csproj.SuggestedBindingRedirects.cache
+C:\Learning\ADO.Net\SqlConnectionADODotNet\SqlConnectionADODotNet\obj\Debug\SqlConnectionADODotNet.csproj.CoreCompileInputs.cache
+C:\Learning\ADO.Net\SqlConnectionADODotNet\SqlConnectionADODotNet\obj\Debug\SqlConnectionADODotNet.exe
+C:\Learning\ADO.Net\SqlConnectionADODotNet\SqlConnectionADODotNet\obj\Debug\SqlConnectionADODotNet.pdb

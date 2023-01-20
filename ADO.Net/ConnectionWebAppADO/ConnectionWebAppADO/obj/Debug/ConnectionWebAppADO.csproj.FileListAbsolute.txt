@@ -1,0 +1,11 @@
+C:\Learning\ADO.Net\ConnectionWebAppADO\ConnectionWebAppADO\bin\Debug\ConnectionWebAppADO.exe.config
+C:\Learning\ADO.Net\ConnectionWebAppADO\ConnectionWebAppADO\bin\Debug\ConnectionWebAppADO.exe
+C:\Learning\ADO.Net\ConnectionWebAppADO\ConnectionWebAppADO\bin\Debug\ConnectionWebAppADO.pdb
+C:\Learning\ADO.Net\ConnectionWebAppADO\ConnectionWebAppADO\obj\Debug\ConnectionWebAppADO.csproj.AssemblyReference.cache
+C:\Learning\ADO.Net\ConnectionWebAppADO\ConnectionWebAppADO\obj\Debug\ConnectionWebAppADO.csproj.SuggestedBindingRedirects.cache
+C:\Learning\ADO.Net\ConnectionWebAppADO\ConnectionWebAppADO\obj\Debug\ConnectionWebAppADO.Form1.resources
+C:\Learning\ADO.Net\ConnectionWebAppADO\ConnectionWebAppADO\obj\Debug\ConnectionWebAppADO.Properties.Resources.resources
+C:\Learning\ADO.Net\ConnectionWebAppADO\ConnectionWebAppADO\obj\Debug\ConnectionWebAppADO.csproj.GenerateResource.cache
+C:\Learning\ADO.Net\ConnectionWebAppADO\ConnectionWebAppADO\obj\Debug\ConnectionWebAppADO.csproj.CoreCompileInputs.cache
+C:\Learning\ADO.Net\ConnectionWebAppADO\ConnectionWebAppADO\obj\Debug\ConnectionWebAppADO.exe
+C:\Learning\ADO.Net\ConnectionWebAppADO\ConnectionWebAppADO\obj\Debug\ConnectionWebAppADO.pdb

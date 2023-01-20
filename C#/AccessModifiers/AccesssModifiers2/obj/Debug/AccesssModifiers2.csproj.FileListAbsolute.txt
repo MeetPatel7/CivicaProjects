@@ -1,0 +1,6 @@
+C:\Learning\C#\AccessModifiers\AccesssModifiers2\bin\Debug\AccesssModifiers2.dll
+C:\Learning\C#\AccessModifiers\AccesssModifiers2\bin\Debug\AccesssModifiers2.pdb
+C:\Learning\C#\AccessModifiers\AccesssModifiers2\obj\Debug\AccesssModifiers2.csproj.AssemblyReference.cache
+C:\Learning\C#\AccessModifiers\AccesssModifiers2\obj\Debug\AccesssModifiers2.csproj.CoreCompileInputs.cache
+C:\Learning\C#\AccessModifiers\AccesssModifiers2\obj\Debug\AccesssModifiers2.dll
+C:\Learning\C#\AccessModifiers\AccesssModifiers2\obj\Debug\AccesssModifiers2.pdb

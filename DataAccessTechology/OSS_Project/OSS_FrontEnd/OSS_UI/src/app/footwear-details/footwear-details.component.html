@@ -1,0 +1,16 @@
+<div class="speaker-detail">
+    <div class="row justify-content-around">
+        <div class="col-4">
+            <img src="{{footwearDetails.pic}}" class="m-4" alt="..." height="300px" width="400px">
+        </div>
+        <div class="col-7 border-start">
+            <h2><p class="fs-bolder mx-5 mt-5">{{footwearDetails.name}}</p></h2><br>
+            <h4>Price: {{footwearDetails.price}}</h4>
+            <h4>Color: {{footwearDetails.color}}</h4>
+            <h4>Material: {{footwearDetails.material}}</h4>
+            <h4>Price: Rs. {{footwearDetails.price}}.00</h4>
+            <h4>ManufacturingDate: {{footwearDetails.manufacturingDate | date}}  </h4>
+            <!-- <h3 class="mx-5 mt-4">{{footwearDetailsData.profile}}</h3> -->
+        </div>
+    </div>
+</div>

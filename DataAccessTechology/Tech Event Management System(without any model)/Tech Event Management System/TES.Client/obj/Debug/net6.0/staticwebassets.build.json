@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MQN1C9M3t3fV6iLnfjEFWzdfFoSvwLUxY5tU4nabRe8=",
+  "Source": "TES.Client",
+  "BasePath": "_content/TES.Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,8 @@
+C:\Learning\C#\DemoInheritance\DemoInheritance\bin\Debug\DemoInheritance.exe.config
+C:\Learning\C#\DemoInheritance\DemoInheritance\bin\Debug\DemoInheritance.exe
+C:\Learning\C#\DemoInheritance\DemoInheritance\bin\Debug\DemoInheritance.pdb
+C:\Learning\C#\DemoInheritance\DemoInheritance\obj\Debug\DemoInheritance.csproj.AssemblyReference.cache
+C:\Learning\C#\DemoInheritance\DemoInheritance\obj\Debug\DemoInheritance.csproj.SuggestedBindingRedirects.cache
+C:\Learning\C#\DemoInheritance\DemoInheritance\obj\Debug\DemoInheritance.csproj.CoreCompileInputs.cache
+C:\Learning\C#\DemoInheritance\DemoInheritance\obj\Debug\DemoInheritance.exe
+C:\Learning\C#\DemoInheritance\DemoInheritance\obj\Debug\DemoInheritance.pdb

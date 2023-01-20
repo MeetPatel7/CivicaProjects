@@ -1,0 +1,233 @@
+<div class="footwear-form">
+    <div class="footwear-title">
+        <h3>Footwear Form</h3>
+    </div>
+    <div>
+        <form #footwearForm="ngForm" (submit)="onSubmit(footwearForm)">
+            <input type="hidden" name="id" [(ngModel)]="footwearDatailsService.footwearForm.id">
+            <table>
+                <tr>
+                    <td>
+                        <label>Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" name="name" #name="ngModel"
+                            [(ngModel)]="footwearDatailsService.footwearForm.name" required
+                            [class.invalid]="name.invalid && name.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Pic :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="pic" name="pic" #pic="ngModel"
+                            [(ngModel)]="footwearDatailsService.footwearForm.pic" required
+                            [class.invalid]="pic.invalid &#038;&#038; pic.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Price</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="price" name="price" #price="ngModel"
+                            [(ngModel)]="footwearDatailsService.footwearForm.price" required
+                            [class.invalid]="price.invalid &#038;&#038; price.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>color :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="color" name="color" #color="ngModel"
+                            [(ngModel)]="footwearDatailsService.footwearForm.color" min="18" max="58" required
+                            [class.invalid]="color.invalid &#038;&#038; color.touched" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Material :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="" name="material" #material="ngModel"
+                            [(ngModel)]="footwearDatailsService.footwearForm.material" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Manufacturing Date:</label>
+                    </td>
+                    <td>
+                        <input type="date" placeholder="Manufacturing Date" name="manufacturingDate" #manufacturingDate="ngModel"
+                            [(ngModel)]="footwearDatailsService.footwearForm.manufacturingDate" required
+                            [class.invalid]="manufacturingDate.invalid &#038;&#038; manufacturingDate.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>In Stock :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="inStock" name="inStock" #inStock="ngModel"
+                            [(ngModel)]="footwearDatailsService.footwearForm.inStock" required
+                            [class.invalid]="inStock.invalid && inStock.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Category Id :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Category Id" name="categoryId" #categoryId="ngModel"
+                            [(ngModel)]="footwearDatailsService.footwearForm.categoryId" required
+                            [class.invalid]="categoryId.invalid && categoryId.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Manufacturer Id :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Manufacturer Id" name="manufacturerId" #manufacturersId="ngModel"
+                            [(ngModel)]="footwearDatailsService.footwearForm.manufacturerId" required
+                            [class.invalid]="manufacturersId.invalid && manufacturersId.touched">
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td></td>
+                    <td>
+                        <button class="btn btn-primary" type="submit" [disabled]="footwearForm.invalid">SUBMIT</button>
+                        <button class="btn btn-secondary" type="button" routerLink="ViewEmployee"
+                        routerLinkActive="active" ariaCurrentWhenActive="page">View Record</button>
+                    </td>
+            </table>
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    <h4>Employee List</h4>
+    <br>
+
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>pic</th>
+                <th>price</th>
+                <th>color</th>
+                <th>material</th>
+                <th>Manufacturing Date</th>
+                <th>In Stock</th>
+                <th>Category Id</th>
+                <th>Manufacturers Id</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tr *ngFor="let data of allFootwear">
+            <td>{{data.id}}</td>
+            <td>{{data.name}}</td>
+            <td><img src="{{data.pic}}" class="card-img-top" alt="..." height="150px" width="150px"></td>
+            <td>{{data.price}}</td>
+            <td>{{data.color}}</td>
+            <td>{{data.material}}</td>
+            <td>{{data.manufacturingDate}}</td>
+            <td>{{data.inStock}}</td>
+            <td>{{data.categoryId}}</td>
+            <td>{{data.manufacturerId}}</td>
+            <td (click)="populateForm(data)">
+                <a [routerLink]="['AddFootwear/' + data.id]" routerLinkActive="router-link-active">
+                    <i class="fa fa-pen-alt fa-lg"></i>
+                </a>
+            </td>
+            <td>
+                <a (click)="deleteFootwear(data.id)">
+                    <i class="fa fa-trash fa-lg text-danger"></i>
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<!-- <div class="employee-form">
+    <div class="employee-title">
+        <h3> Employee Form </h3>
+    </div>
+    <div>
+        <form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit()">
+            <input type="hidden" name="id" [(ngModel)]="addEmployee.id">
+            <table>
+                <tr>
+                    <td>
+                        <label>First Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="First Name" name="firstName" #firstName="ngModel"
+                            [(ngModel)]="addEmployee.firstName" required
+                            [class.invalid]="firstName.invalid &#038;&#038; firstName.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Last Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Last Name" name="lastName" #lastName="ngModel"
+                            [(ngModel)]="addEmployee.lastName" required
+                            [class.invalid]="lastName.invalid &#038;&#038; lastName.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date of Birth</label>
+                    </td>
+                    <td>
+                        <input type="date" placeholder="MM/YY" name="dateOfBirth" #dateOfBirth="ngModel"
+                            [(ngModel)]="addEmployee.dateOfBirth" required
+                            [class.invalid]="dateOfBirth.invalid &#038;&#038; dateOfBirth.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Age :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your Age" name="age" #age="ngModel"
+                            [(ngModel)]="addEmployee.age" min="18" max="58" required
+                            [class.invalid]="age.invalid &#038;&#038; age.touched" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email ID :</label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder="Email ID" name="email" #email="ngModel"
+                            [(ngModel)]="addEmployee.email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Department ID :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Department ID" name="departmentId" #departmentId="ngModel"
+                            [(ngModel)]="addEmployee.departmentId" required
+                            [class.invalid]="departmentId.invalid &#038;&#038; departmentId.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button class="btn btn-primary" type="submit" [disabled]="form.invalid">SUBMIT</button>
+                        <button class="btn btn-secondary" type="button" routerLink="ViewEmployee"
+                        routerLinkActive="active" ariaCurrentWhenActive="page">View Record</button>
+                    </td>
+            </table>
+        </form>
+    </div>
+</div> -->

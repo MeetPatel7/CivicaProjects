@@ -1,0 +1,26 @@
+<div class="student-view">
+    <div class="student-view-title">
+        <h1>Student Record</h1>
+    </div>
+    <div class="department-table">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Enrollment Count</th>
+                    <th>Last Registration date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of studentData">   
+                    <td [routerLink]="['/ViewStudent/'+ item.id]">{{item.firstName}} {{item.lastName}}</td>
+                    <td ></td>
+                    <td ></td>
+                    <td>
+                        <!-- <i class="far fa-trash-alt fa-lg text-danger" (click)="deleteDep(item.id)"></i> -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="">
+    <h1 class="title text-center py-2 fst-bolder">Upcoming Events</h1>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let data of eventData">
+        <div class="card h-100" [routerLink]="['/EventDetail/' + data.id]">
+            <img src="./assets/event/event1.jfif" class="card-img-top" height="300px">
+            <div class="card-body">
+                <h2 class="card-title">{{data.name}}</h2>
+                <a href="#" class="fs-3">{{data.startDate | date: "dd-"}}{{data.endDate | date: "dd MMMM"}}</a>
+            </div>
+        </div>
+    </div>
+</div>
+    

@@ -1,0 +1,11 @@
+C:\Learning\C#\AccessModifiers\AccessModifiers\bin\Debug\AccessModifiers.exe.config
+C:\Learning\C#\AccessModifiers\AccessModifiers\bin\Debug\AccessModifiers.exe
+C:\Learning\C#\AccessModifiers\AccessModifiers\bin\Debug\AccessModifiers.pdb
+C:\Learning\C#\AccessModifiers\AccessModifiers\obj\Debug\AccessModifiers.csproj.AssemblyReference.cache
+C:\Learning\C#\AccessModifiers\AccessModifiers\obj\Debug\AccessModifiers.csproj.SuggestedBindingRedirects.cache
+C:\Learning\C#\AccessModifiers\AccessModifiers\obj\Debug\AccessModifiers.csproj.CoreCompileInputs.cache
+C:\Learning\C#\AccessModifiers\AccessModifiers\obj\Debug\AccessModifiers.exe
+C:\Learning\C#\AccessModifiers\AccessModifiers\obj\Debug\AccessModifiers.pdb
+C:\Learning\C#\AccessModifiers\AccessModifiers\bin\Debug\AccesssModifiers2.dll
+C:\Learning\C#\AccessModifiers\AccessModifiers\bin\Debug\AccesssModifiers2.pdb
+C:\Learning\C#\AccessModifiers\AccessModifiers\obj\Debug\AccessModifiers.csproj.CopyComplete

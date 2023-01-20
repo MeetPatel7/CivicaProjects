@@ -1,0 +1,26 @@
+<div class="department-view">
+    <div class="department-view-title">
+        <h1>Department Record</h1>
+    </div>
+    <div class="department-table">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Department Id</th>
+                    <th>Department Name</th>
+                    <th>Is Active</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of service.Departmentlist">   
+                    <td >{{item.id}}</td>
+                    <td >{{item.name}}</td>
+                    <td >{{item.isActive}}</td>
+                    <td>
+                        <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete1(item.id)"></i>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

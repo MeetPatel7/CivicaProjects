@@ -1,0 +1,15 @@
+C:\Learning\C#\DotNetPractice\DotNetPractice\bin\Debug\net6.0\DotNetPractice.exe
+C:\Learning\C#\DotNetPractice\DotNetPractice\bin\Debug\net6.0\DotNetPractice.deps.json
+C:\Learning\C#\DotNetPractice\DotNetPractice\bin\Debug\net6.0\DotNetPractice.runtimeconfig.json
+C:\Learning\C#\DotNetPractice\DotNetPractice\bin\Debug\net6.0\DotNetPractice.dll
+C:\Learning\C#\DotNetPractice\DotNetPractice\bin\Debug\net6.0\DotNetPractice.pdb
+C:\Learning\C#\DotNetPractice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.csproj.AssemblyReference.cache
+C:\Learning\C#\DotNetPractice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\C#\DotNetPractice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.AssemblyInfoInputs.cache
+C:\Learning\C#\DotNetPractice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.AssemblyInfo.cs
+C:\Learning\C#\DotNetPractice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.csproj.CoreCompileInputs.cache
+C:\Learning\C#\DotNetPractice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.dll
+C:\Learning\C#\DotNetPractice\DotNetPractice\obj\Debug\net6.0\refint\DotNetPractice.dll
+C:\Learning\C#\DotNetPractice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.pdb
+C:\Learning\C#\DotNetPractice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.genruntimeconfig.cache
+C:\Learning\C#\DotNetPractice\DotNetPractice\obj\Debug\net6.0\ref\DotNetPractice.dll

@@ -1,0 +1,8 @@
+C:\Learning\ADO.Net\SqlDataReaderADO\SqlDataReaderADO\bin\Debug\SqlDataReaderADO.exe.config
+C:\Learning\ADO.Net\SqlDataReaderADO\SqlDataReaderADO\bin\Debug\SqlDataReaderADO.exe
+C:\Learning\ADO.Net\SqlDataReaderADO\SqlDataReaderADO\bin\Debug\SqlDataReaderADO.pdb
+C:\Learning\ADO.Net\SqlDataReaderADO\SqlDataReaderADO\obj\Debug\SqlDataReaderADO.csproj.AssemblyReference.cache
+C:\Learning\ADO.Net\SqlDataReaderADO\SqlDataReaderADO\obj\Debug\SqlDataReaderADO.csproj.SuggestedBindingRedirects.cache
+C:\Learning\ADO.Net\SqlDataReaderADO\SqlDataReaderADO\obj\Debug\SqlDataReaderADO.csproj.CoreCompileInputs.cache
+C:\Learning\ADO.Net\SqlDataReaderADO\SqlDataReaderADO\obj\Debug\SqlDataReaderADO.exe
+C:\Learning\ADO.Net\SqlDataReaderADO\SqlDataReaderADO\obj\Debug\SqlDataReaderADO.pdb

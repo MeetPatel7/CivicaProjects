@@ -1,0 +1,39 @@
+<div>
+    <h3>Enrollment Form</h3>
+
+    <form #enrollmentForm="ngForm" (submit)="insertEnrollment(enrollmentForm)">
+        <input type="hidden" name="id" [ngModel]="enrollmentService.enrollmentForm.id">
+        <table>
+
+            <tr>
+                <td>
+                    <label>Student Name :</label>            
+                </td>
+                <td>
+                    <select [(ngModel)]="enrollmentService.enrollmentForm.studentId" name="studentId" #studentId="ngModel" required>
+                        <option [ngValue]="null" selected>--Select Name--</option>
+                        <option *ngFor="let item of studentData" [ngValue]="item.id">{{item.firstName}} {{item.lastName}}</option>
+                      </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Course Name :</label>
+                </td>
+                <td>
+                    <select [(ngModel)]="enrollmentService.enrollmentForm.courseId" name="courseId" #courseId="ngModel" required>
+                        <option [ngValue]="null" selected>--Select Course--</option>
+                        <option *ngFor="let data of courseData" [ngValue]="data.id">{{data.name}}</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button class="btn btn-primary" type="submit" [disabled]="enrollmentForm.invalid">SUBMIT</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+

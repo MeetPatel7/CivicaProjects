@@ -1,0 +1,11 @@
+C:\Learning\C#\ReadWriteFileDemo\ReadWriteFileDemo\bin\Debug\ReadWriteFileDemo.exe.config
+C:\Learning\C#\ReadWriteFileDemo\ReadWriteFileDemo\bin\Debug\ReadWriteFileDemo.exe
+C:\Learning\C#\ReadWriteFileDemo\ReadWriteFileDemo\bin\Debug\ReadWriteFileDemo.pdb
+C:\Learning\C#\ReadWriteFileDemo\ReadWriteFileDemo\obj\Debug\ReadWriteFileDemo.csproj.AssemblyReference.cache
+C:\Learning\C#\ReadWriteFileDemo\ReadWriteFileDemo\obj\Debug\ReadWriteFileDemo.csproj.SuggestedBindingRedirects.cache
+C:\Learning\C#\ReadWriteFileDemo\ReadWriteFileDemo\obj\Debug\ReadWriteFileDemo.Form1.resources
+C:\Learning\C#\ReadWriteFileDemo\ReadWriteFileDemo\obj\Debug\ReadWriteFileDemo.Properties.Resources.resources
+C:\Learning\C#\ReadWriteFileDemo\ReadWriteFileDemo\obj\Debug\ReadWriteFileDemo.csproj.GenerateResource.cache
+C:\Learning\C#\ReadWriteFileDemo\ReadWriteFileDemo\obj\Debug\ReadWriteFileDemo.csproj.CoreCompileInputs.cache
+C:\Learning\C#\ReadWriteFileDemo\ReadWriteFileDemo\obj\Debug\ReadWriteFileDemo.exe
+C:\Learning\C#\ReadWriteFileDemo\ReadWriteFileDemo\obj\Debug\ReadWriteFileDemo.pdb

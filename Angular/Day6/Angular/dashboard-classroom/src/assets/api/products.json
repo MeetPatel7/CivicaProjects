@@ -1,0 +1,42 @@
+[
+    {
+        "productId": 1,
+        "productName": "Rake from JSON",
+        "description": "Leaf rake is good product",
+        "price": 23232,
+        "productCode": "PD-001",
+        "manufactureDate": "23-01-2022",
+        "imageUrl": "https://m.media-amazon.com/images/I/71Rg+O39m3L._AC_UL320_.jpg",
+        "starRating": 5
+    },
+    {
+        "productId": 2,
+        "productName": "Hammer",
+        "description": "Hammer is good product",
+        "price": 3232,
+        "productCode": "PD-002",
+        "manufactureDate": "23-02-2022",
+        "imageUrl": "https://m.media-amazon.com/images/I/51j2KWD8f5L._AC_UL320_.jpg",
+        "starRating": 2
+    },
+    {
+        "productId": 3,
+        "productName": "Garden Cart",
+        "description": "Garden cart is good product",
+        "price": 3232,
+        "productCode": "PD-003",
+        "manufactureDate": "23-03-2022",
+        "imageUrl": "https://m.media-amazon.com/images/I/81EthqH+SrL._AC_UL320_.jpg",
+        "starRating": 1
+    },
+    {
+        "productId": 4,
+        "productName": "Rose",
+        "description": "Rose is good product",
+        "price": 3232,
+        "productCode": "PD-004",
+        "manufactureDate": "23-04-2022",
+        "imageUrl": "https://m.media-amazon.com/images/I/51htmXldx9L._AC_UL320_.jpg",
+        "starRating": 4
+    }
+]

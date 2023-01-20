@@ -1,0 +1,17 @@
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\bin\Debug\net6.0\CMS.Data.deps.json
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\bin\Debug\net6.0\CMS.Data.runtimeconfig.json
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\bin\Debug\net6.0\CMS.Data.dll
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\bin\Debug\net6.0\CMS.Data.pdb
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\bin\Debug\net6.0\CMS.Business.dll
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\bin\Debug\net6.0\CMS.Business.pdb
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\obj\Debug\net6.0\CMS.Data.csproj.AssemblyReference.cache
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\obj\Debug\net6.0\CMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\obj\Debug\net6.0\CMS.Data.AssemblyInfoInputs.cache
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\obj\Debug\net6.0\CMS.Data.AssemblyInfo.cs
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\obj\Debug\net6.0\CMS.Data.csproj.CoreCompileInputs.cache
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\obj\Debug\net6.0\CMS.Data.csproj.CopyComplete
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\obj\Debug\net6.0\CMS.Data.dll
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\obj\Debug\net6.0\refint\CMS.Data.dll
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\obj\Debug\net6.0\CMS.Data.pdb
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\obj\Debug\net6.0\CMS.Data.genruntimeconfig.cache
+C:\Learning\DataAccessTechology\CMS_Project\CMS_BackEnd\CMS.Data\obj\Debug\net6.0\ref\CMS.Data.dll

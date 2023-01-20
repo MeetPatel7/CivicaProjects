@@ -1,0 +1,35 @@
+<div class="employee-view">
+    <div class="employee-view-title">
+        <h2>Employee Records</h2>
+    </div>
+    <div class="employee-table">
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Date Of Birth</th>
+                    <th>Email Id</th>
+                    <th>Joined Date</th>
+                    <th>Is Active</th>
+                    <th>Department Id</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of service.Employeelist">
+                    <td (click)="fillForm(item)">{{item.firstName}}</td>
+                    <td (click)="fillForm(item)">{{item.lastName}}</td>
+                    <td (click)="fillForm(item)">{{item.age}}</td>
+                    <td (click)="fillForm(item)">{{item.dateOfBirth}}</td>
+                    <td (click)="fillForm(item)">{{item.email}}</td>
+                    <td (click)="fillForm(item)">{{item.joinedDate}}</td>
+                    <td (click)="fillForm(item)">{{item.isActive}}</td>
+                    <td (click)="fillForm(item)">{{item.departmentId}}</td>
+
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

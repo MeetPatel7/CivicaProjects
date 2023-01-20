@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "B6ywIP9CrEVQQezaRpSXWJ2s5ii96ckAQXvXaUoED/M=",
+  "Source": "OSS.Client",
+  "BasePath": "_content/OSS.Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

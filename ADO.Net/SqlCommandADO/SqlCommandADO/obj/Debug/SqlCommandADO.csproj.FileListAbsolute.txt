@@ -1,0 +1,8 @@
+C:\Learning\ADO.Net\SqlCommandADO\SqlCommandADO\bin\Debug\SqlCommandADO.exe.config
+C:\Learning\ADO.Net\SqlCommandADO\SqlCommandADO\bin\Debug\SqlCommandADO.exe
+C:\Learning\ADO.Net\SqlCommandADO\SqlCommandADO\bin\Debug\SqlCommandADO.pdb
+C:\Learning\ADO.Net\SqlCommandADO\SqlCommandADO\obj\Debug\SqlCommandADO.csproj.AssemblyReference.cache
+C:\Learning\ADO.Net\SqlCommandADO\SqlCommandADO\obj\Debug\SqlCommandADO.csproj.SuggestedBindingRedirects.cache
+C:\Learning\ADO.Net\SqlCommandADO\SqlCommandADO\obj\Debug\SqlCommandADO.csproj.CoreCompileInputs.cache
+C:\Learning\ADO.Net\SqlCommandADO\SqlCommandADO\obj\Debug\SqlCommandADO.exe
+C:\Learning\ADO.Net\SqlCommandADO\SqlCommandADO\obj\Debug\SqlCommandADO.pdb

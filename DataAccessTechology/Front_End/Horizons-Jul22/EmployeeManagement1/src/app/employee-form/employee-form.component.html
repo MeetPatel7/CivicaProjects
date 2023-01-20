@@ -1,0 +1,87 @@
+<div class="employee-form">
+    <div class="employee-title">
+        <h3> Employee Form </h3>
+    </div>
+    <div>
+        <form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+            <table>
+                <input type="hidden" name="id" [value]="service.formData.id">
+                <tr>
+                    <td>
+                        <label>First Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="First Name" name="firstName" #firstName="ngModel"
+                            [(ngModel)]="service.formData.firstName" required
+                            [class.invalid]="firstName.invalid &#038;&#038; firstName.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Last Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Last Name" name="lastName" #lastName="ngModel"
+                            [(ngModel)]="service.formData.lastName" required
+                            [class.invalid]="lastName.invalid &#038;&#038; lastName.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Age :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your Age" name="age" #age="ngModel"
+                            [(ngModel)]="service.formData.age" required
+                            [class.invalid]="age.invalid &#038;&#038; age.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date of Birth</label>
+                    </td>
+                    <td>
+                        <input type="date" placeholder="MM/YY" name="dateOfBirth" #dateOfBirth="ngModel"
+                            [(ngModel)]="service.formData.dateOfBirth" required
+                            [class.invalid]="dateOfBirth.invalid &#038;&#038; dateOfBirth.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email ID :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Email ID" name="email" #dateOfBirth="ngModel"
+                            [(ngModel)]="service.formData.email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Is Active :</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="isActive" value="true" ngModel>True
+                        <input type="radio" name="isActive" value="false" ngModel>False
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Department ID :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Department ID" name="departmentId" #departmentId="ngModel"
+                            [(ngModel)]="service.formData.departmentId" required
+                            [class.invalid]="departmentId.invalid &#038;&#038; departmentId.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button class="btn btn-primary" type="submit" [disabled]="form.invalid">SUBMIT</button>
+                        <button class="btn btn-secondary" type="submit" routerLink="/ViewEmployee" 
+                            routerLinkActive="active" ariaCurrentWhenActive="page">View Record</button>
+                    </td>
+            </table>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+:root {
+    --green: #1e90ff;
+}
+
+h1 {
+    background-color: var(--green);
+}

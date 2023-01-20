@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*
+
+            Javascript 
+                Javascript is loosely type programming language, it means we donot need to define datatype inside javascript 
+                In javascript everything is an object
+
+
+            Typescript 
+
+                Typescript is superset of javascript 
+
+                Typescript is strongly type programming language, we define datatype inside typescript
+
+            
+            Variable 
+                It is a container which contains some information
+                we use var, let and const to define variables
+
+            String 
+                Set of characters is called string 
+                We use either single or double quotes to define string, even in ES6 we can also use backtick operator ``
+                'Mumbai'
+
+            Array
+
+                To contain multiple values in a single variable 
+                Square brackes for array - []
+                we can only store value inside array
+                By default key start from 0th position
+
+            Object
+                Contains properties and method 
+                We use curly braces {}
+                We can store key and value both in object
+
+            Function
+        */
+
+        // variable 
+
+        var address = 'Mumbai'; // address is variable
+        // OR 
+        var address = new String("Mumbai"); // string is an object in javascript
+
+        document.write(address); // to print in browser
+
+        document.write("<hr>"); // We can use html inside javascript 
+
+        var x = 2; // number 
+        var y = "2"; // string
+
+        document.write(x + y);
+        document.write("<hr>");
+
+        var father = "a";
+        var mother = "b";
+        var sister = "c";
+        var brother = "d";
+
+        document.write(father);
+        document.write("<br>");
+        document.write(mother);
+        document.write("<br>");
+        document.write(sister);
+        document.write("<br>");
+        document.write(brother);
+        document.write("<br>");
+
+        var numbers = [301, 302, 303, 304, 305]; // numbers of array
+        // OR 
+        var numbers = new Array(301, 302, 303, 304, 305);
+
+        document.write(numbers[0]);
+        document.write("<br>");
+
+        var flowers = ["Rose", "Dahlia", "Magnolia", "Tulip", "Daisy"]; // string of array
+        document.write(flowers[0]);
+        document.write("<br>");
+        document.write(flowers[1]);
+        document.write("<br>");
+        document.write(flowers[2]);
+        document.write("<br>");
+        document.write(flowers[3]);
+        document.write("<br>");
+        document.write(flowers[4]);
+
+        var mixedArray = ["Rose", 232, true, 232.32, ["a", "b", "c", "d"]];
+        console.log(mixedArray);
+
+        var family = {
+            father: "Ram", // Property
+            mother: "b",
+            sister: "c",
+            brother: "d",
+            otherFamily: function () { // Method
+                document.write("This is family method");
+            }
+        };
+
+        console.log("family", family);
+        document.write("<br>");
+        document.write(family.father); // using key to print value
+        // OR 
+        document.write(family["father"]);
+        document.write("<br>");
+        family.otherFamily();
+
+        // nested object 
+
+    </script>
+</body>
+
+</html>

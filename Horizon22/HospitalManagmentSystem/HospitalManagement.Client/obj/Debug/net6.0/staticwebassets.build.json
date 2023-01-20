@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "i1QEtzqcx1dUZosOf+rHlXkgcA4/PFaQjSqzXfvku9c=",
+  "Source": "HospitalManagement.Client",
+  "BasePath": "_content/HospitalManagement.Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

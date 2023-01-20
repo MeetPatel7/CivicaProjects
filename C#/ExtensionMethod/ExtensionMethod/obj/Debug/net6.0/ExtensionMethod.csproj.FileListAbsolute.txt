@@ -1,0 +1,15 @@
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\bin\Debug\net6.0\ExtensionMethod.exe
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\bin\Debug\net6.0\ExtensionMethod.deps.json
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\bin\Debug\net6.0\ExtensionMethod.runtimeconfig.json
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\bin\Debug\net6.0\ExtensionMethod.dll
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\bin\Debug\net6.0\ExtensionMethod.pdb
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\obj\Debug\net6.0\ExtensionMethod.csproj.AssemblyReference.cache
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\obj\Debug\net6.0\ExtensionMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\obj\Debug\net6.0\ExtensionMethod.AssemblyInfoInputs.cache
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\obj\Debug\net6.0\ExtensionMethod.AssemblyInfo.cs
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\obj\Debug\net6.0\ExtensionMethod.csproj.CoreCompileInputs.cache
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\obj\Debug\net6.0\ExtensionMethod.dll
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\obj\Debug\net6.0\refint\ExtensionMethod.dll
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\obj\Debug\net6.0\ExtensionMethod.pdb
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\obj\Debug\net6.0\ExtensionMethod.genruntimeconfig.cache
+C:\Learning\C#\ExtensionMethod\ExtensionMethod\obj\Debug\net6.0\ref\ExtensionMethod.dll

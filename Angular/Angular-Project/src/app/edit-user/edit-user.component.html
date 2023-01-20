@@ -1,0 +1,39 @@
+<app-nav-bar [id]="id"></app-nav-bar>
+<form [formGroup]="edituserForm">
+    <div class="mt-5">
+        <div class="d-flex justify-content-center fs-4 mt-3">
+            <b>Edit User Information</b>
+        </div>
+        <div class="row d-flex justify-content-center mt-5">
+            <div class="col-1">
+                <label>Full Name:</label>
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" formControlName="fullname"
+                    [ngClass]="{'is-invalid': (edituserForm.get('fullname')?.touched || edituserForm.get('fullname')?.dirty) && !edituserForm.get('fullname')?.valid}">
+
+                <span class="invalid-feedback">
+                    <span *ngIf="edituserForm.get('fullname')?.errors?.['required']">Please enter your
+                        Fullname</span>
+                </span>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-1">
+                <label>Email:</label>
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" formControlName="email"
+                    [ngClass]="{'is-invalid': (edituserForm.get('email')?.touched || edituserForm.get('email')?.dirty) && !edituserForm.get('email')?.valid}">
+
+                <span class="invalid-feedback">
+                    <span *ngIf="edituserForm.get('email')?.errors?.['required']">Please enter your
+                        Email</span>
+                </span>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+            <button type="button" class=" col-1 btn btn-primary" (click)="updatedata()">Save</button>
+        </div>
+    </div>
+</form>

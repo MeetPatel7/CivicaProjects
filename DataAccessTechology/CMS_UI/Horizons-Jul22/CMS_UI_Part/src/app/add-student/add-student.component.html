@@ -1,0 +1,57 @@
+<div class="student-form">
+    <div class="student-title">
+        <h3>Student Form</h3>
+    </div>
+    <div>
+        <form #studentForm="ngForm" (submit)="insertStudent(studentForm.value)">
+            <input type="hidden" name="id" [(ngModel)]="studentService.studentForm.id">
+            <table>
+                <tr>
+                    <td>
+                        <label>First Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="First Name" name="firstName" #firstname="ngModel"
+                            [(ngModel)]="studentService.studentForm.firstName" required
+                            [class.invalid]="firstname.invalid && firstname.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Last name :</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Last name" name="lastName" #lastName="ngModel"
+                            [(ngModel)]="studentService.studentForm.lastName" required
+                            [class.invalid]="lastName.invalid &#038;&#038; lastName.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email :</label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder="email" name="email" #email="ngModel"
+                            [(ngModel)]="studentService.studentForm.email" required
+                            [class.invalid]="email.invalid &#038;&#038; email.touched">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date of Birth :</label>
+                    </td>
+                    <td>
+                        <input type="date" placeholder="dateOfBirth" name="dateOfBirth" #dateOfBirth="ngModel"
+                            [(ngModel)]="studentService.studentForm.dateOfBirth" min="18" max="58" required
+                            [class.invalid]="dateOfBirth.invalid &#038;&#038; dateOfBirth.touched" >
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td></td>
+                    <td>
+                        <button class="btn btn-primary" type="submit" [disabled]="studentForm.invalid">SUBMIT</button>
+                    </td>
+            </table>
+        </form>
+    </div>
+</div>

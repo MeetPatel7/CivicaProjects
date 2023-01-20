@@ -1,0 +1,33 @@
+<div class="speaker-detail">
+    <div class="row justify-content-around">
+        <div class="col-3">
+            <img src="{{speaker.pic}}" class="m-4" alt="..." height="250px">
+        </div>
+        <div class="col-7 border-start">
+            <h1 class="fs-bolder mx-5 mt-5">{{speaker.name}}</h1>
+            <h3 class="mx-5 mt-4">{{speaker.profile}}</h3>
+        </div>
+    </div>
+    <div class="m-5">
+        <p class="fst-italic">
+            Sadhguru (born Jagadish Vasudev, 3 September 1957) is the founder and head of the Isha Foundation, based in
+            Coimbatore, India. The foundation, established in 1992, operates an ashram and yoga centre that carries out
+            educational and spiritual activities. Sadhguru has been teaching yoga since 1982. He is the author of the
+            New York Times bestsellers Inner Engineering: A Yogi's Guide to Joy and Karma: A Yogi's Guide to Crafting
+            Your Destiny, and a frequent speaker at international forums.
+        </p>
+    </div>
+    <div>
+        <h1 class="m-5">Talk and workshops</h1>
+    </div>
+    <div class="row ms-4 mb-4">
+        <div class="card col-4" style="width: 18rem;" *ngFor="let data of talkDetailsData">
+            <div class="card-body">
+                <h3 class="card-title">{{data.title}}</h3>
+                <img src="{{speaker.pic}}" class="" alt="..." height="50px">
+                <b class="m-5">{{speaker.name}}</b><br>
+                <a href="#" class="card-link">{{time}} Hours</a>
+            </div>
+        </div>
+    </div>
+</div>

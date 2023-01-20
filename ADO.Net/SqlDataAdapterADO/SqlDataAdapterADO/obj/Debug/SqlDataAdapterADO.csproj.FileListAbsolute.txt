@@ -1,0 +1,8 @@
+C:\Learning\ADO.Net\SqlDataAdapterADO\SqlDataAdapterADO\bin\Debug\SqlDataAdapterADO.exe.config
+C:\Learning\ADO.Net\SqlDataAdapterADO\SqlDataAdapterADO\bin\Debug\SqlDataAdapterADO.exe
+C:\Learning\ADO.Net\SqlDataAdapterADO\SqlDataAdapterADO\bin\Debug\SqlDataAdapterADO.pdb
+C:\Learning\ADO.Net\SqlDataAdapterADO\SqlDataAdapterADO\obj\Debug\SqlDataAdapterADO.csproj.AssemblyReference.cache
+C:\Learning\ADO.Net\SqlDataAdapterADO\SqlDataAdapterADO\obj\Debug\SqlDataAdapterADO.csproj.SuggestedBindingRedirects.cache
+C:\Learning\ADO.Net\SqlDataAdapterADO\SqlDataAdapterADO\obj\Debug\SqlDataAdapterADO.csproj.CoreCompileInputs.cache
+C:\Learning\ADO.Net\SqlDataAdapterADO\SqlDataAdapterADO\obj\Debug\SqlDataAdapterADO.exe
+C:\Learning\ADO.Net\SqlDataAdapterADO\SqlDataAdapterADO\obj\Debug\SqlDataAdapterADO.pdb

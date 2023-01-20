@@ -1,0 +1,22 @@
+.employee-form{
+    margin-top: 60px;
+    margin-left: 400px;
+    ;
+}
+
+.employee-title{
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+td{
+    padding: 5px 10px 5px 10px;
+}
+
+.btn-primary{
+    margin-top: 10px;
+}
+.btn-secondary{
+    margin-top: 10px;
+    margin-left: 15px;
+}

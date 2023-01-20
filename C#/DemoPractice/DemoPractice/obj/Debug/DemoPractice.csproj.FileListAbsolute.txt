@@ -1,0 +1,8 @@
+C:\Learning\C#\DemoPractice\DemoPractice\bin\Debug\DemoPractice.exe.config
+C:\Learning\C#\DemoPractice\DemoPractice\bin\Debug\DemoPractice.exe
+C:\Learning\C#\DemoPractice\DemoPractice\bin\Debug\DemoPractice.pdb
+C:\Learning\C#\DemoPractice\DemoPractice\obj\Debug\DemoPractice.csproj.AssemblyReference.cache
+C:\Learning\C#\DemoPractice\DemoPractice\obj\Debug\DemoPractice.csproj.SuggestedBindingRedirects.cache
+C:\Learning\C#\DemoPractice\DemoPractice\obj\Debug\DemoPractice.csproj.CoreCompileInputs.cache
+C:\Learning\C#\DemoPractice\DemoPractice\obj\Debug\DemoPractice.exe
+C:\Learning\C#\DemoPractice\DemoPractice\obj\Debug\DemoPractice.pdb

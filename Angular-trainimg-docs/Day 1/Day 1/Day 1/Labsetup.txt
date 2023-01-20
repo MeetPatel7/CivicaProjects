@@ -1,0 +1,22 @@
+Lab setup 
+----------
+
+Visual studio Code - https://code.visualstudio.com/ - Code Editor 
+Chrome browser 
+Nodejs download - https://nodejs.org/en/download/
+
+To check node version 
+node -v
+
+To check npm version, (Node package manager)
+npm -v 
+
+https://www.npmjs.com/ 
+
+Angular installation 
+
+npm i -g @angular/cli (This command will install angular cli globally)
+
+ng new dashboard (this command will create dashboard project)
+cd dashboard (move inside project)
+npm start or ng server (to run app)

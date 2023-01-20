@@ -1,0 +1,15 @@
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\bin\Debug\net6.0\ArithmaticOperation.exe
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\bin\Debug\net6.0\ArithmaticOperation.deps.json
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\bin\Debug\net6.0\ArithmaticOperation.runtimeconfig.json
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\bin\Debug\net6.0\ArithmaticOperation.dll
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\bin\Debug\net6.0\ArithmaticOperation.pdb
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\obj\Debug\net6.0\ArithmaticOperation.csproj.AssemblyReference.cache
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\obj\Debug\net6.0\ArithmaticOperation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\obj\Debug\net6.0\ArithmaticOperation.AssemblyInfoInputs.cache
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\obj\Debug\net6.0\ArithmaticOperation.AssemblyInfo.cs
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\obj\Debug\net6.0\ArithmaticOperation.csproj.CoreCompileInputs.cache
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\obj\Debug\net6.0\ArithmaticOperation.dll
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\obj\Debug\net6.0\refint\ArithmaticOperation.dll
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\obj\Debug\net6.0\ArithmaticOperation.pdb
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\obj\Debug\net6.0\ArithmaticOperation.genruntimeconfig.cache
+C:\Learning\C#\ArithmaticOperation\ArithmaticOperation\obj\Debug\net6.0\ref\ArithmaticOperation.dll

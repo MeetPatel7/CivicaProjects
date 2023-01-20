@@ -1,0 +1,16 @@
+<nav class="nav rounded">
+    <div class="col-3 d-flex justify-content-center border border-dark btn1">
+        <a class="nav-link text-dark btngroupchat" [routerLink]="['/groupchat']" [queryParams]="{id}">Group Chat</a>
+    </div>
+    <div class="col-3 d-flex justify-content-center border border-dark btn2">
+        <a class="nav-link text-dark btnusersmanagement" [routerLink]="['/users-management']"
+            [queryParams]="{id}">Manage Users</a>
+    </div>
+    <div class="col-3 d-flex justify-content-center border border-dark btn3">
+        <a class="nav-link text-dark btndocsmanagement" [routerLink]="['/docs-management']" [queryParams]="{id}">Manage
+            Document</a>
+    </div>
+    <div class="col-3 d-flex justify-content-center border border-dark btn4">
+        <a class="nav-link text-dark btnlogout" [routerLink]="['/logout']">Logout</a>
+    </div>
+</nav>

@@ -1,0 +1,18 @@
+<div class="header row justify-content-around mb-4 mt-2 py-4 border border-dark">
+    <div class="col-5 ">
+        <h1 class="fw-bolder">{{event.name}}</h1>
+    </div>
+    <div class="col-5 border-start">
+        <h1>{{eventDays}} Days Event</h1>
+    </div>
+</div>
+<div>
+    <img src="./assets/event/event1.jfif" class="card-img-top" alt="..." height="500px">
+</div>
+<div class="row justify-content-around my-5">
+    <a class="btn btn-secondary col-3 py-3 fs-5 fw-bolder" routerLink="/Event">
+        < Home</a>
+            <a class="btn btn-primary col-3 py-3 fs-5 fw-bolder"
+                [routerLink]="['/events/'+event.id+'/authors/']">Speaker</a>
+            <a class="btn btn-primary col-3 py-3 fs-5 fw-bolder" [routerLink]="['/Venue/'+ event.venueId]">Venue</a>
+</div>

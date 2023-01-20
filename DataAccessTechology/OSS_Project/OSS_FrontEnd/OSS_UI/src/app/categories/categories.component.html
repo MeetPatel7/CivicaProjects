@@ -1,0 +1,42 @@
+<!-- <div class="row row-col-md-3 m-5">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/Categories/menShoes.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Men</h5>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/Categories/womenShoes.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Women</h5>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/Categories/kidShoes.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Kids</h5>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+<div>
+  <h1 class="title text-center py-2 fst-bolder">Select your Category</h1>
+</div>
+<div class="row row-col-md-3 m-5">
+  <div class="col" *ngFor="let data of categoriesData">
+    <div class="card" style="width: 18rem;" [routerLink]="['/Categories/'+ data.id +'/FootwearDetails']">
+      <img src="{{data.pic}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{data.name}}}</h5>
+      </div>
+    </div>
+  </div>
+</div>

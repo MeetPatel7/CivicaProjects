@@ -1,0 +1,11 @@
+C:\Learning\C#\WinFromAppDemo\WinFromAppDemo\obj\Debug\WinFromAppDemo.csproj.AssemblyReference.cache
+C:\Learning\C#\WinFromAppDemo\WinFromAppDemo\obj\Debug\WinFromAppDemo.csproj.SuggestedBindingRedirects.cache
+C:\Learning\C#\WinFromAppDemo\WinFromAppDemo\obj\Debug\WinFromAppDemo.Properties.Resources.resources
+C:\Learning\C#\WinFromAppDemo\WinFromAppDemo\obj\Debug\WinFromAppDemo.csproj.GenerateResource.cache
+C:\Learning\C#\WinFromAppDemo\WinFromAppDemo\obj\Debug\WinFromAppDemo.csproj.CoreCompileInputs.cache
+C:\Learning\C#\WinFromAppDemo\WinFromAppDemo\bin\Debug\WinFromAppDemo.exe.config
+C:\Learning\C#\WinFromAppDemo\WinFromAppDemo\bin\Debug\WinFromAppDemo.exe
+C:\Learning\C#\WinFromAppDemo\WinFromAppDemo\bin\Debug\WinFromAppDemo.pdb
+C:\Learning\C#\WinFromAppDemo\WinFromAppDemo\obj\Debug\WinFromAppDemo.textvalu1.resources
+C:\Learning\C#\WinFromAppDemo\WinFromAppDemo\obj\Debug\WinFromAppDemo.exe
+C:\Learning\C#\WinFromAppDemo\WinFromAppDemo\obj\Debug\WinFromAppDemo.pdb

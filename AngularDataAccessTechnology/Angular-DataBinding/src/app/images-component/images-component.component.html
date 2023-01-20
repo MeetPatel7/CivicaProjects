@@ -1,0 +1,10 @@
+<h3>Choose your Pizza</h3>
+<div class="container" pm-3>
+    <select [(ngModel)]="binding" data-style="btn-success"> 
+        <option selected="selected">--Choose--</option>
+        <option *ngFor="let img of image" value="{{img.imgPath}}">{{img.imgName}}</option>
+    </select>
+</div>
+<div>
+    <img src="{{binding}}" width="250px">
+</div>

@@ -1,0 +1,17 @@
+<p>Templete-Driven Form</p>
+
+<form [formGroup]="formData" (ngSubmit)="onFormSubmit()">
+    <p>
+        <label>Enter First Name:</label>
+        <input type="text" name="firstname" id="firstname" formControlName="FirstName">
+    </p>
+    <p>
+        <label>Enter last Name:</label>
+        <input type="text" name="lastname" id="lastname" formControlName="LastName">
+    </p>
+    <p>
+        <label>Enter Email ID:</label>
+        <input type="text" name="email" id="email" formControlName="Email">
+    </p>
+    <p><input type="submit"></p>
+</form>

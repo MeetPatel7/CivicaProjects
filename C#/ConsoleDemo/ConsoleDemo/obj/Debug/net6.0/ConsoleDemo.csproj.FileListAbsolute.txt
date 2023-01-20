@@ -1,0 +1,15 @@
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\bin\Debug\net6.0\ConsoleDemo.exe
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\bin\Debug\net6.0\ConsoleDemo.deps.json
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\bin\Debug\net6.0\ConsoleDemo.runtimeconfig.json
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\bin\Debug\net6.0\ConsoleDemo.dll
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\bin\Debug\net6.0\ConsoleDemo.pdb
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\obj\Debug\net6.0\ConsoleDemo.csproj.AssemblyReference.cache
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\obj\Debug\net6.0\ConsoleDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\obj\Debug\net6.0\ConsoleDemo.AssemblyInfoInputs.cache
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\obj\Debug\net6.0\ConsoleDemo.AssemblyInfo.cs
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\obj\Debug\net6.0\ConsoleDemo.csproj.CoreCompileInputs.cache
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\obj\Debug\net6.0\ConsoleDemo.dll
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\obj\Debug\net6.0\refint\ConsoleDemo.dll
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\obj\Debug\net6.0\ConsoleDemo.pdb
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\obj\Debug\net6.0\ConsoleDemo.genruntimeconfig.cache
+C:\Learning\C#\ConsoleDemo\ConsoleDemo\obj\Debug\net6.0\ref\ConsoleDemo.dll

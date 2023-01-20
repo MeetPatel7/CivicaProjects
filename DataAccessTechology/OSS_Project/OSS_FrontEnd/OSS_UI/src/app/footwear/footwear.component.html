@@ -1,0 +1,14 @@
+<div>
+    <h1 class="title text-center py-2 fst-bolder">Please Select your Footwear</h1>
+  </div>
+  <div class="row row-col-md-3 m-5 g-4">
+    <div class="col" *ngFor="let data of footwearData">
+      <div class="card" style="width: 18rem;" [routerLink]="['/Categories/'+ categoryId + '/FootwearDetails/' + data.id]">
+        <img src="{{data.pic}}" class="card-img-top" alt="..." height="200px" width="200px">
+        <div class="card-body">
+          <h5 class="card-title">{{data.name}}</h5>
+          <h5><b>{{data.price}}.00</b></h5>
+        </div>
+      </div>
+    </div>
+  </div>
